@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">E02Sesion01</string>
+    <string name="login_header">Equipo 02 SESION 01</string>
+    <string name="login_button">Acceder</string>
+    <string name="enter_username">Ingrese su usuario</string>
+    <string name="enter_password">Ingrese su contraseña</string>
+    <string name="error_username">Favor especificar un usuario</string>
+    <string name="error_password">Favor especificar una contraseña</string>
+    <string name="error_login">Acceso denegado!</string>
+    <string name="select_option">Seleccione una opción</string>
+
+    <string-array name="options_listview">
+        <item>Practica 103</item>
+        <item>Practica 104</item>
+        <item>Practica 105</item>
+    </string-array>
+</resources>
