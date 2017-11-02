@@ -1,5 +1,6 @@
 package com.mcvasquez.e02sesion01;
 
+import android.content.Intent;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
@@ -9,6 +10,24 @@ import android.widget.ListView;
 
 public class HomeActivity extends AppCompatActivity {
 
+    AdapterView.OnItemClickListener onItemClickListener = new AdapterView.OnItemClickListener() {
+        @Override
+        public void onItemClick(AdapterView<?> parent, View view, int position, long id) {
+            switch (position) {
+                case 0:
+                    break;
+                case 1:
+                    break;
+                case 2:
+                    Intent i = new Intent(getApplicationContext(), InternetActivity.class);
+                    onGoToActivity(i);
+                    break;
+                default:
+
+            }
+
+        }
+    };
     private ListView listView;
 
     @Override
@@ -24,10 +43,7 @@ public class HomeActivity extends AppCompatActivity {
         listView.setOnItemClickListener(onItemClickListener);
     }
 
-    AdapterView.OnItemClickListener onItemClickListener = new AdapterView.OnItemClickListener() {
-        @Override
-        public void onItemClick(AdapterView<?> parent, View view, int position, long id) {
-
-        }
-    };
+    public void onGoToActivity(Intent i) {
+        startActivity(i);
+    }
 }

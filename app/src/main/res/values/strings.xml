@@ -12,6 +12,10 @@
     <string-array name="options_listview">
         <item>Practica 103</item>
         <item>Practica 104</item>
-        <item>Practica 105</item>
+        <item>Practica 112</item>
     </string-array>
+    <string name="title_activity_internet">internetActivity</string>
+    <string name="finalizar">FINALIZAR</string>
+    <string name="ingrese_un_sitio_web">Ingrese un sitio web</string>
+    <string name="ver">Ver</string>
 </resources>
