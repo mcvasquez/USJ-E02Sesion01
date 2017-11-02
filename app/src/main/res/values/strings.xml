@@ -15,7 +15,7 @@
     <string name="mensaje3">Por favor ingrese un segundo valor</string>
     <string-array name="options_listview">
         <item>Practica 106</item>
-        <item>Practica 104</item>
+        <item>Practica 108</item>
         <item>Practica 112</item>
     </string-array>
     <string name="title_activity_internet">internetActivity</string>
@@ -25,4 +25,6 @@
     <string name="operar">Operar</string>
     <string name="resultado">Resultado</string>
     <string name="mensaje6">Escoge una opcion para operar</string>
+    <string name="call">Call</string>
+    <string name="llamand">Llamando</string>
 </resources>

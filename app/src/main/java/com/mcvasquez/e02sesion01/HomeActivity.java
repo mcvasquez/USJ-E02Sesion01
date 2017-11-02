@@ -20,6 +20,8 @@ public class HomeActivity extends AppCompatActivity {
                     onGoToActivity(i);
                     break;
                 case 1:
+                    i = new Intent(getApplicationContext(), CallActivity.class);
+                    onGoToActivity(i);
                     break;
                 case 2:
                     i = new Intent(getApplicationContext(), InternetActivity.class);
