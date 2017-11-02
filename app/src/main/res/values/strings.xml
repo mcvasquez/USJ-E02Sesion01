@@ -8,9 +8,13 @@
     <string name="error_password">Favor especificar una contraseña</string>
     <string name="error_login">Acceso denegado!</string>
     <string name="select_option">Seleccione una opción</string>
-
+    <string name="ingrese_el_primer_valor">Ingrese el primer valor</string>
+    <string name="ingrese_el_segundo_valor">Ingrese el segundo valor</string>
+    <string name="mensaje1">Ingrese los dos valores correspondientes</string>
+    <string name="mensaje2">Por favor ingrese un primer valor</string>
+    <string name="mensaje3">Por favor ingrese un segundo valor</string>
     <string-array name="options_listview">
-        <item>Practica 103</item>
+        <item>Practica 106</item>
         <item>Practica 104</item>
         <item>Practica 112</item>
     </string-array>
@@ -18,4 +22,7 @@
     <string name="finalizar">FINALIZAR</string>
     <string name="ingrese_un_sitio_web">Ingrese un sitio web</string>
     <string name="ver">Ver</string>
+    <string name="operar">Operar</string>
+    <string name="resultado">Resultado</string>
+    <string name="mensaje6">Escoge una opcion para operar</string>
 </resources>

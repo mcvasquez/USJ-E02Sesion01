@@ -13,13 +13,16 @@ public class HomeActivity extends AppCompatActivity {
     AdapterView.OnItemClickListener onItemClickListener = new AdapterView.OnItemClickListener() {
         @Override
         public void onItemClick(AdapterView<?> parent, View view, int position, long id) {
+            Intent i;
             switch (position) {
                 case 0:
+                    i = new Intent(getApplicationContext(), OperacionActivity.class);
+                    onGoToActivity(i);
                     break;
                 case 1:
                     break;
                 case 2:
-                    Intent i = new Intent(getApplicationContext(), InternetActivity.class);
+                    i = new Intent(getApplicationContext(), InternetActivity.class);
                     onGoToActivity(i);
                     break;
                 default:
@@ -28,14 +31,13 @@ public class HomeActivity extends AppCompatActivity {
 
         }
     };
-    private ListView listView;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_home);
 
-        listView = findViewById(R.id.listView);
+        ListView listView = findViewById(R.id.listView);
         ArrayAdapter<String> adapter = new ArrayAdapter<>(this,
                 android.R.layout.simple_list_item_1,
                 getResources().getStringArray(R.array.options_listview));
